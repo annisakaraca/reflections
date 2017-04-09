@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When you initialize a repository it creates a folder for the metadata.
+You then need to create the first commit for your repository.

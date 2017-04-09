@@ -10,3 +10,18 @@ The staging area is an intermediate area between the working directory and the
 repository. It allows you to choose which files from the working directory
 should be saved to the repository and let's you double check if the files
 are correct before adding them to the repository.
+
+How can you use the staging area to make sure you have one commit per logical 
+change?
+
+You can use this area to see which files will be commited to the repository. If
+you have more than one logical change, remove the files from the staging area 
+that are not part of the first logical change. You can always add those to the
+repository in a later commit.
+
+What are some situations when branches would be helpful in keeping your history 
+organized? How would branches help?
+
+If you have a final product but want to add a new feature that could break
+the final product. Branches would help because you can build upon the old
+final version without touching it.

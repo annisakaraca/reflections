@@ -29,8 +29,8 @@ stored locally?
 To compare the changes that have been made to the local copy.
 
 
-How would you collaborate without using Git or GitHub? What would be easier, and
-what would be harder?
+How would you collaborate without using Git or GitHub? What would be easier, 
+and what would be harder?
 
 Without using Git or GitHub, you would have to rely on extensive documentation 
 on the changes you are introducing. It would be hard for someone to easily
@@ -38,3 +38,13 @@ compare the changes you ahve made to the original version, because then they
 would have to have multiple versions of the same project on their computer,
 which could lead to confusion. It would be easier without dealing with merge
 conflicts but pretty much everything would be harder.
+
+
+When would you want to make changes in a separate branch rather than directly 
+in master? What benefits does each approach have?
+
+In the case when the feature you are working on is still in progress and
+unfinished, or when you are collaborating with others and want their approval
+before pushing to master, it would be better to make your changes in a separate
+branch rather than directly in master. By doing this, you get the benefit
+of having your work saved and visible without affecting the production code.

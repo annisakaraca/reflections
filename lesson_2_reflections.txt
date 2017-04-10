@@ -37,3 +37,9 @@ the diagram the way we do?
 The merge results in a single branch that combines the commits of the two
 merged branches. It is represented in the diagram to the right of the branches
 because it comes at a later point in time than them.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges 
+manually?
+
+Git's automatic merging saves a lot of time, so that you don't have to go line
+by line to find the changes.

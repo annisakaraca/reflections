@@ -25,3 +25,15 @@ organized? How would branches help?
 If you have a final product but want to add a new feature that could break
 the final product. Branches would help because you can build upon the old
 final version without touching it.
+
+How do the diagrams help you visualize the branch structure?
+
+They show which commits build upon each other and how a commit could become
+unreachable through git log.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+The merge results in a single branch that combines the commits of the two
+merged branches. It is represented in the diagram to the right of the branches
+because it comes at a later point in time than them.

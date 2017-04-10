@@ -21,3 +21,20 @@ various working states of a repository. Forks are used when you want to build
 upon a project created by someone else. Clones are used when you want to get
 something from GitHub onto your computer. Branches are used when you want to
 develop a new feature without breaking your production code.
+
+
+What is the benefit of having a copy of the last known state of the remote 
+stored locally?
+
+To compare the changes that have been made to the local copy.
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and
+what would be harder?
+
+Without using Git or GitHub, you would have to rely on extensive documentation 
+on the changes you are introducing. It would be hard for someone to easily
+compare the changes you ahve made to the original version, because then they
+would have to have multiple versions of the same project on their computer,
+which could lead to confusion. It would be easier without dealing with merge
+conflicts but pretty much everything would be harder.
